@@ -10,6 +10,9 @@ scalacOptions ++= Seq(
   "-feature",
   "-Xfatal-warnings")
 
+
+libraryDependencies += "junit" % "junit" % "4.12" % "test"
+
 libraryDependencies += "com.novocode" % "junit-interface" % "0.11" % "test"
 
 jacoco.settings
