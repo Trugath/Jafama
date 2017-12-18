@@ -2,7 +2,7 @@ name := "jafama"
 
 version := "2.1-SNAPSHOT"
 
-scalaVersion := "2.12.1"
+scalaVersion := "2.12.4"
 
 scalacOptions ++= Seq(
   "-unchecked",
@@ -14,5 +14,3 @@ scalacOptions ++= Seq(
 libraryDependencies += "junit" % "junit" % "4.12" % "test"
 
 libraryDependencies += "com.novocode" % "junit-interface" % "0.11" % "test"
-
-jacoco.settings
