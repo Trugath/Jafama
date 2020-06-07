@@ -2,7 +2,7 @@ name := "jafama"
 
 version := "2.1-SNAPSHOT"
 
-scalaVersion := "2.13.1"
+scalaVersion := "2.13.2"
 
 scalacOptions ++= Seq(
   "-unchecked",
