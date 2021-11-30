@@ -2,13 +2,11 @@ name := "jafama"
 
 version := "2.1-SNAPSHOT"
 
-scalaVersion := "2.13.6"
+scalaVersion := "3.0.2"
 
 scalacOptions ++= Seq(
-  "-unchecked",
-  "-deprecation",
-  "-feature",
-  "-Xfatal-warnings")
+  "-rewrite",
+  "-source:3.0-migration")
 
 
 libraryDependencies += "junit" % "junit" % "4.12" % "test"
